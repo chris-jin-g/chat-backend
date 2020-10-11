@@ -1,0 +1,40 @@
+{
+  "name": "cool-chat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sequelize": "^4.28.9",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "pg": "^8.3.2",
+    "random-ip": "^0.0.1",
+    "sequelize": "^6.3.4",
+    "socket.io": "^2.3.0",
+    "tedious": "^9.2.1",
+    "uniqid": "^5.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
